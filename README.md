@@ -9,15 +9,15 @@ Madrid, 2026
 This repository contains the data and analysis code for a thesis examining whether the form of EU Recovery and Resilience Facility (RRF) financing — grants versus loans — differentially affects renewable energy capacity additions across EU member states, and whether that relationship is moderated by pre-existing renewable energy infrastructure.
 
 ## Repository structure
-├── frozen/
-│   ├── Thesis_Panel_Fina_Frozen.ipynb
-│   └── panel_step6_official.xlsx
-├── raw_data/
-│   └── rrf_raw.xlsx
-└── live_notebook/
-├── Thesis_Panel_Final.ipynb
-├── Data_WB_GovernEffectiveness.csv
-└── view_cabinet.csv
+- `frozen/` — the notebook and dataset used to produce the thesis results
+  - `Thesis_Panel_Fina_Frozen.ipynb`
+  - `panel_step6_official.xlsx`
+- `raw_data/` — raw source data, for reference only
+  - `rrf_raw.xlsx`
+- `live_notebook/` — earlier development version, pulls live data
+  - `Thesis_Panel_Final.ipynb`
+  - `Data_WB_GovernEffectiveness.csv`
+  - `view_cabinet.csv`
 
 ## Two versions of the analysis
 
